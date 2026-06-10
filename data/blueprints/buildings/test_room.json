@@ -1,0 +1,61 @@
+{
+  "id": "test_room",
+  "name": "Test Room",
+  "width": 5,
+  "height": 5,
+  "terrain": [
+    {"x": 0, "y": 0, "type": "floor"},
+    {"x": 1, "y": 0, "type": "floor"},
+    {"x": 2, "y": 0, "type": "floor"},
+    {"x": 3, "y": 0, "type": "floor"},
+    {"x": 4, "y": 0, "type": "floor"},
+    {"x": 0, "y": 1, "type": "floor"},
+    {"x": 1, "y": 1, "type": "floor"},
+    {"x": 2, "y": 1, "type": "floor"},
+    {"x": 3, "y": 1, "type": "floor"},
+    {"x": 4, "y": 1, "type": "floor"},
+    {"x": 0, "y": 2, "type": "floor"},
+    {"x": 1, "y": 2, "type": "floor"},
+    {"x": 2, "y": 2, "type": "floor"},
+    {"x": 3, "y": 2, "type": "floor"},
+    {"x": 4, "y": 2, "type": "floor"},
+    {"x": 0, "y": 3, "type": "floor"},
+    {"x": 1, "y": 3, "type": "floor"},
+    {"x": 2, "y": 3, "type": "floor"},
+    {"x": 3, "y": 3, "type": "floor"},
+    {"x": 4, "y": 3, "type": "floor"},
+    {"x": 0, "y": 4, "type": "floor"},
+    {"x": 1, "y": 4, "type": "floor"},
+    {"x": 2, "y": 4, "type": "floor"},
+    {"x": 3, "y": 4, "type": "floor"},
+    {"x": 4, "y": 4, "type": "floor"}
+  ],
+  "edges": [
+    {"x": 0, "y": 0, "direction": "north", "type": "wall"},
+    {"x": 1, "y": 0, "direction": "north", "type": "wall"},
+    {"x": 2, "y": 0, "direction": "north", "type": "window"},
+    {"x": 3, "y": 0, "direction": "north", "type": "wall"},
+    {"x": 4, "y": 0, "direction": "north", "type": "wall"},
+    {"x": 0, "y": 4, "direction": "south", "type": "wall"},
+    {"x": 1, "y": 4, "direction": "south", "type": "wall"},
+    {"x": 2, "y": 4, "direction": "south", "type": "door", "open": true},
+    {"x": 3, "y": 4, "direction": "south", "type": "wall"},
+    {"x": 4, "y": 4, "direction": "south", "type": "wall"},
+    {"x": 0, "y": 0, "direction": "west", "type": "wall"},
+    {"x": 0, "y": 1, "direction": "west", "type": "wall"},
+    {"x": 0, "y": 2, "direction": "west", "type": "window"},
+    {"x": 0, "y": 3, "direction": "west", "type": "wall"},
+    {"x": 0, "y": 4, "direction": "west", "type": "wall"},
+    {"x": 4, "y": 0, "direction": "east", "type": "wall"},
+    {"x": 4, "y": 1, "direction": "east", "type": "wall"},
+    {"x": 4, "y": 2, "direction": "east", "type": "window"},
+    {"x": 4, "y": 3, "direction": "east", "type": "wall"},
+    {"x": 4, "y": 4, "direction": "east", "type": "wall"}
+  ],
+  "furniture": [
+    {"x": 1, "y": 1, "id": "table_placeholder"}
+  ],
+  "loot_zones": [
+    {"id": "kitchen_loot", "min": {"x": 1, "y": 1}, "max": {"x": 3, "y": 2}}
+  ]
+}

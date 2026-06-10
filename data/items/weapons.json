@@ -1,0 +1,32 @@
+[
+  {
+    "id": "metal_pipe",
+    "name": "metal pipe",
+    "sprite": "items/metal_pipe",
+    "weight_kg": 1.8,
+    "volume_l": 1.2,
+    "components": {
+      "weapon": {
+        "damage_bash": 14,
+        "damage_cut": 0,
+        "attack_time": 120,
+        "stamina_cost": 9
+      }
+    }
+  },
+  {
+    "id": "kitchen_knife",
+    "name": "kitchen knife",
+    "sprite": "items/kitchen_knife",
+    "weight_kg": 0.3,
+    "volume_l": 0.4,
+    "components": {
+      "weapon": {
+        "damage_bash": 2,
+        "damage_cut": 12,
+        "attack_time": 90,
+        "stamina_cost": 5
+      }
+    }
+  }
+]
