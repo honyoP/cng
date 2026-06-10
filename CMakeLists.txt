@@ -9,6 +9,11 @@ set(JSON_BuildTests OFF CACHE INTERNAL "")
 set(JSON_Install OFF CACHE INTERNAL "")
 add_subdirectory(vendor/json)
 
+set(SDL_TEST_LIBRARY OFF CACHE BOOL "" FORCE)
+set(SDL_TESTS OFF CACHE BOOL "" FORCE)
+set(SDL_EXAMPLES OFF CACHE BOOL "" FORCE)
+add_subdirectory(vendor/SDL)
+
 add_library(imgui STATIC
     vendor/imgui/imgui.cpp
     vendor/imgui/imgui_draw.cpp
